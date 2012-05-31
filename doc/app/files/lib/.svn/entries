@@ -1,0 +1,52 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/doc/app/files/lib
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-18T02:41:15.959383Z
+713
+yraspo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+authenticated_test_helper_rb.html
+file
+
+
+
+
+2008-12-18T02:45:49.000000Z
+b1684f722a6ae38a275af44399004d45
+2008-12-18T02:41:15.959383Z
+713
+yraspo
+
+authenticated_system_rb.html
+file
+
+
+
+
+2008-12-18T02:45:49.000000Z
+e2a1712ada29500dd8a7c489c8ce1f7c
+2008-12-18T02:41:15.959383Z
+713
+yraspo
+

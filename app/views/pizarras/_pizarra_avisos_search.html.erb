@@ -1,0 +1,20 @@
+<% unless pizarra.avisos.empty? %>
+     <%query = params[:q] %>
+     <% @avisos  = pizarra.avisos.list_avisos(query) %>
+     
+     <% @avisos.each do |aviso| %>
+     
+        <%= render :partial => "avisos/note_search", 
+            :locals => {:aviso => aviso } %>
+
+      <% end %>
+
+
+ <% end %>
+
+
+
+
+
+
+

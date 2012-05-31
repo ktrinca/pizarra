@@ -1,0 +1,82 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/config
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-18T12:41:36.967777Z
+717
+gramos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+routes.rb
+file
+
+
+
+
+2008-12-17T12:46:24.000000Z
+cee15b1abfeb035a234489aeac7c2720
+2008-12-17T12:44:18.069031Z
+704
+yraspo
+
+database.yml
+file
+
+
+
+
+2008-12-11T20:10:00.000000Z
+ebfc44cda99dcfcd3fcb92bcc69fc5b6
+2008-09-08T15:55:47.356184Z
+398
+yraspo
+
+boot.rb
+file
+
+
+
+
+2008-12-11T20:10:00.000000Z
+fd5eb215ca1d1e68dfd56c3f01e6b0cd
+2008-09-08T15:55:47.356184Z
+398
+yraspo
+
+initializers
+dir
+
+environment.rb
+file
+
+
+
+
+2008-12-18T12:45:42.000000Z
+36f321bd283f9f65e15a07cefee39a9f
+2008-12-18T12:41:36.967777Z
+717
+gramos
+
+environments
+dir
+

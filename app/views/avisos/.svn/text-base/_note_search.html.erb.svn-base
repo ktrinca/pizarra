@@ -1,0 +1,10 @@
+<div id='<%= aviso.css_id %>' class="noteSearch">
+   <script> 
+      var valor = '<%= aviso.contenido %>';
+      imprimeContenido (valor,'<%= aviso.css_id %>' );
+   </script>
+</div>
+
+
+
+

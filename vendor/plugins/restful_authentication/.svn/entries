@@ -1,0 +1,70 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/plugins/restful_authentication
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-02T14:29:15.195667Z
+535
+yraspo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+Rakefile
+file
+
+
+
+
+2008-12-11T20:10:22.000000Z
+ebfd713e05e35c55392c1999bf3bfb44
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+
+lib
+dir
+
+install.rb
+file
+
+
+
+
+2008-12-11T20:10:22.000000Z
+3773dce53854a282602d79a631a1ff8a
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+
+generators
+dir
+
+README
+file
+
+
+
+
+2008-12-11T20:10:22.000000Z
+55b3f6d8c8e815aaad6c508f9d3540e2
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+

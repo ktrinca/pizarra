@@ -1,0 +1,106 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/plugins/acts_as_state_machine
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-12-11T20:10:20.000000Z
+bf4114a3b02bfd02cfb35103841a1744
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+
+TODO
+file
+
+
+
+
+2008-12-11T20:10:20.000000Z
+c7cdaf69a6ca8d84735e94c04d3e9b00
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+
+init.rb
+file
+
+
+
+
+2008-12-11T20:10:20.000000Z
+331a772e6bc93e8bcc0b9121c864b7ae
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-12-11T20:10:20.000000Z
+6724b4ffea59678592fbc77bc283f30d
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+
+MIT-LICENSE
+file
+
+
+
+
+2008-12-11T20:10:20.000000Z
+918aa567713910d9ca412696e9c3a12e
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+
+README
+file
+
+
+
+
+2008-12-11T20:10:20.000000Z
+396c3550ac041e62a283247d43a06087
+2008-11-08T14:22:34.246200Z
+469
+yraspo
+

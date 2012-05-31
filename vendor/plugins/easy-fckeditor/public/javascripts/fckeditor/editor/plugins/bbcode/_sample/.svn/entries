@@ -1,0 +1,52 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/plugins/easy-fckeditor/public/javascripts/fckeditor/editor/plugins/bbcode/_sample
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-11-26T12:07:33.106013Z
+515
+yraspo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+sample.config.js
+file
+
+
+
+
+2008-12-11T20:11:51.000000Z
+316426404b79b1b61e3db4408f4e2a3f
+2008-11-26T12:07:33.106013Z
+515
+yraspo
+
+sample.html
+file
+
+
+
+
+2008-12-11T20:11:51.000000Z
+5c5305caa103a0e2b97905c36ee9ac0b
+2008-11-26T12:07:33.106013Z
+515
+yraspo
+

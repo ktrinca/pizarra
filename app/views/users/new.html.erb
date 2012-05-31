@@ -1,0 +1,46 @@
+<% current_menu_item 'SignUp'%>
+<div class='contenedor'>
+  <ul >
+   <%= error_messages_for :user,
+        :header_message => "No se pudo efectuar la Registraci&oacute;n",
+        :message => "El problema para la registraci&oacute;n es con los siguientes campos." %>
+  </ul>
+ <fieldset id="fieldset">
+  <legend id="SignIn"> Crear cuenta </legend>
+    <div id="formAdmin">
+      <% form_for :user, :url => users_path do |f| -%>
+        <p>
+          <label for="login"><b>Login</b></label><br/>
+          <%= f.text_field :login %>
+        </p>
+        <div id="buttonLogin">
+        </div>  
+        <p>
+         <label for="email"><b>Email</b></label><br/>
+         <%= f.text_field :email %>
+        </p>
+        <div id="buttonLogin">
+        </div>  
+        
+        <p>
+          <label for="password"><b>Password</b></label><br/>
+          <%= f.password_field :password %>
+        </p>
+        <div id="buttonLogin">
+        </div>  
+        
+       <p>
+         <label for="password_confirmation"><b>Confirm Password</b></label><br/>
+         <%= f.password_field :password_confirmation %>
+       </p>
+
+        <p>
+          <div id="buttonLogin">
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <%= image_submit_tag "/images/newLogin.gif" %>  
+         </div>
+        </p>
+      <% end -%>
+     </div>
+  </fieldset> 
+</div>

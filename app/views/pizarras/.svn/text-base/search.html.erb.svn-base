@@ -1,0 +1,74 @@
+<% current_menu_item 'home'%>
+
+<!--#################### div buscador ##################### -->
+  <div style="padding-right:-100px;"><%= link_to 'Volver', pizarras_path %></div>
+  <div id="contentBuscador" > 
+   
+   <div id='separator'></div>
+   
+    <fieldset id="fieldsetBuscador" >
+      <legend> B&uacute;squeda de Avisos </legend>
+          <%= render   :partial    => "pizarraSearch" %>
+   </fieldset>
+    
+     &nbsp;&nbsp;&nbsp;  
+  
+  </div>
+
+  <!-- ############## Bloque Login ############ -- >
+   <div>   
+     <%= render :partial=> "/sessions/new" %>
+   </div>
+  
+  <!-- ############## FIN Bloque Login ############ -- > 
+  
+  <div class='contentHome'>
+    <table border="0">
+     <!-- ############## encabezado ############ -- >
+     <tr>
+       <td align="center" style="width:260px">
+            
+            <%= text_header_search (@pizarras) %>
+       </td>
+       <td style="width:280px">&nbsp;</td>
+     </tr>
+     
+    <!-- ############## TD DETALLES PIZARRAS ############ -- >
+    
+    <% for pizarra in @pizarras %>
+     <tr >
+      <td colspan="2" align="center" style="border-bottom:solid 1px #7CE1E1;">
+         <table border="0">
+              <tr>
+               <td>
+               <%= image_tag "ver3.jpg" %>
+               </td>
+               
+               <td width="200px">
+                 <h3>Pizarra: <%= pizarra.nombre %>:</h3>
+               </td>
+               </tr>
+               
+               
+               <tr >
+                <td colspan="2" align="center" >
+                    <%= render (:partial => "pizarra_avisos_search", 
+                                :locals => {:pizarra => pizarra }) %>
+                </td>
+               </tr>
+          </table>
+       </td>
+            
+       
+      </tr>
+
+      <% end %>
+   
+   <tr><td colspan="2" id="paginate"><%= will_paginate %></td></tr> 
+     
+  </table>
+  
+  
+ </div>
+  
+ 

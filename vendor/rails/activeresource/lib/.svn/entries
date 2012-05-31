@@ -1,0 +1,55 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/rails/activeresource/lib
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+active_resource
+dir
+
+active_resource.rb
+file
+
+
+
+
+2008-12-11T20:12:55.000000Z
+77c2a7b6501467136ea8aa3a38ea0a61
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+activeresource.rb
+file
+
+
+
+
+2008-12-11T20:12:55.000000Z
+d819521da29be7e8da6b823cb34db6c0
+2008-12-04T18:54:56.117243Z
+563
+gramos
+

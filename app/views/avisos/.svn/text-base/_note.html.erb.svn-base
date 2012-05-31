@@ -1,0 +1,10 @@
+<div id='<%= aviso.css_id %>' class="notes" title="Para borrar arrastre la nota al cesto">
+   <script> 
+      var valor = '<%= aviso.contenido %>';
+      imprimeContenido (valor,'<%= aviso.css_id %>' );
+   </script>
+</div>
+
+
+<%= draggable_element(aviso.css_id, :revert =>false) %>
+

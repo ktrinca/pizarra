@@ -1,0 +1,62 @@
+<% current_menu_item 'Admin'%>
+
+<h2>Listados de Pizarras:</h2> 
+  <div class='contentAdmin'>
+
+<!--#################### TD ENCABEZADO ##################### -->
+   
+   <table class='admin'>
+     <tr>
+            <th id='thCabecera'>Pizarra</th>
+           <th id='thCabecera'>Cantidad de Avisos</th>
+           <th id='thCabecera'>Fecha</th>
+           <th id='thCabecera'></th>
+           <th id='thVacio'></th>
+           <th id='thVacio'></th>
+
+     </tr>  
+
+<!--#################### TD DETALLES PIZARRAS ##################### -->
+
+    <% for pizarra in @pizarras do %>
+   
+     <tr>
+   
+        <td> <%= link_to pizarra.nombre, pizarra %> </td>
+    
+        <td> <%=h pizarra.avisos.count %></td>
+       
+        <td> <%=h pizarra.created_at.to_date %></td>
+       
+        <td> 
+          <%= link_to image_tag("/images/editar3.gif", 
+                                :title=> "Editar nombre de Pizarra"), 
+                                edit_admin_pizarra_path(pizarra) %> 
+        </td>
+       
+        <td> 
+          <%= text_confirm_clear_avisos(pizarra) %> 
+        </td>
+        
+        <td> 
+          <%= link_to image_tag("/images/eliminarPizarra.gif",
+                                  :title=> "Elimina Pizarra"),
+                                  [:admin,pizarra],
+                                  :method => :delete, 
+                                  :confirm => 'Esta seguro?'%> 
+        </td>
+  
+  
+     </tr>
+    <% end %>
+
+  </table>
+<div>
+ <br />
+<!--################# pie botone crear - PAGINACION ################## -->
+
+<%= link_to image_tag("/images/crearPizarraB.jpg",
+                       :style=>"border:0px;"), 
+                       new_admin_pizarra_path %>
+
+<%= will_paginate %>

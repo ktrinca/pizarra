@@ -1,0 +1,96 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/rails/actionmailer
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+test
+dir
+
+Rakefile
+file
+
+
+
+
+2008-12-11T20:13:12.000000Z
+6d2a70afb1ec8b5ac201b64b386df4bc
+2008-12-04T18:54:56.117243Z
+563
+gramos
+has-props
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-12-11T20:13:12.000000Z
+52e5fc4c38202764b27d462d32ee5c67
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+install.rb
+file
+
+
+
+
+2008-12-11T20:13:12.000000Z
+8f2cf06de1b064108fb9138dc450d82b
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+MIT-LICENSE
+file
+
+
+
+
+2008-12-11T20:13:12.000000Z
+1e02ec3a53b75ebde7b1727a7473206c
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+README
+file
+
+
+
+
+2008-12-11T20:13:12.000000Z
+2a707f3c629fcfe1d082c41fffdebed9
+2008-12-04T18:54:56.117243Z
+563
+gramos
+has-props
+

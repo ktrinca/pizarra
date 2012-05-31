@@ -1,0 +1,46 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/rails
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-11T15:26:02.327002Z
+646
+yraspo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+activeresource
+dir
+
+actionmailer
+dir
+
+activesupport
+dir
+
+activerecord
+dir
+
+actionpack
+dir
+
+railties
+dir
+

@@ -1,0 +1,55 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/rails/railties/lib/rails_generator/generators/components/scaffold
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+USAGE
+file
+
+
+
+
+2008-12-11T20:16:15.000000Z
+fcedba60a19e3d1576e9cf4bf1a5f44e
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+scaffold_generator.rb
+file
+
+
+
+
+2008-12-11T20:16:15.000000Z
+26a854c43b95a1f0f7d874bef53e5c6f
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+templates
+dir
+

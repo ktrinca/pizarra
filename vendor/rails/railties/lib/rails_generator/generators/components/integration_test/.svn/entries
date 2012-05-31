@@ -1,0 +1,55 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/rails/railties/lib/rails_generator/generators/components/integration_test
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+USAGE
+file
+
+
+
+
+2008-12-11T20:16:15.000000Z
+ec2252f62eed2c82a500d479da340df5
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+integration_test_generator.rb
+file
+
+
+
+
+2008-12-11T20:16:15.000000Z
+a8c9071d01d87110b42f149cf4d08995
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+templates
+dir
+

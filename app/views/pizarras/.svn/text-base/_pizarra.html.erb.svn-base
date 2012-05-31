@@ -1,0 +1,18 @@
+<% unless @avisos.empty? %>
+     
+      <% @avisos.publicados.each do |aviso| %>
+      
+        <%= render :partial => "avisos/note", 
+            :locals => {:aviso => aviso } %>
+
+      <% end %>
+
+
+ <% end %>
+
+
+
+
+
+
+

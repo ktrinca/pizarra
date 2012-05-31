@@ -1,0 +1,40 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/rails/railties/lib/rails_generator/generators/components/session_migration/templates
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-04T18:54:56.117243Z
+563
+gramos
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+migration.rb
+file
+
+
+
+
+2008-12-11T20:16:18.000000Z
+364051fc3b430b1f649c1ad3b6f3bbf6
+2008-12-04T18:54:56.117243Z
+563
+gramos
+

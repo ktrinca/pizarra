@@ -1,0 +1,39 @@
+<!-- ################### Fecha de Incio ################ -->
+
+<%= calendar_date_select_includes CalendarDateSelect.format = :iso_date, :style => "default"%> 
+<tr style="background-image: url('/images/fondo.jpg');">
+  <td align="center"> 
+    Fecha de Publiciaci&oacute;n
+  <td> 
+   
+</tr>
+
+<tr style="background-image: url('/images/fondo.jpg');">
+  <td align="center"> 
+     &nbsp;&nbsp;<%= calendar_date_select_tag "calendar_input_inicio", DateTime.now.to_date, :popup => "force",
+      :valid_date_check => "date >=(new Date()).stripTime()", :button=> true %>
+      <a title="Elimina fecha de Editor" style="cursor:pointer;" onclick="javascript:limpia_text ('calendar_input_inicio');">
+        Borrar
+      </a>
+  <td> 
+   
+</tr>
+
+
+<!-- ################### Fecha Hasta ################ -->
+<tr style="background-image: url('/images/fondo.jpg');">
+  <td align="center"> 
+    Fecha Fin de Publicaci&oacute;n
+  <td> 
+   
+</tr>
+<tr style="background-image: url('/images/fondo.jpg');">
+  <td align="center"> 
+     &nbsp;&nbsp;<%= calendar_date_select_tag "calendar_input_fin", "", :popup => "force",
+      :valid_date_check => "date >(new Date()).stripTime()", :button=> true %>
+      <a title="Elimina fecha de Editor" style="cursor:pointer;" onclick="javascript:limpia_text ('calendar_input_fin');">
+        Borrar
+      </a>
+  <td> 
+   
+</tr>

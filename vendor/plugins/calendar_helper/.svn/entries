@@ -1,0 +1,133 @@
+8
+
+dir
+718
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/plugins/calendar_helper
+svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
+
+
+
+2008-12-09T23:27:43.142187Z
+629
+yraspo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+66081120-562a-0410-b780-8c63d2d42f6e
+
+test
+dir
+
+History.txt
+file
+
+
+
+
+2008-12-11T20:10:31.000000Z
+82e239f94b32725a31a459e847370bb8
+2008-12-09T23:27:43.142187Z
+629
+yraspo
+
+Rakefile
+file
+
+
+
+
+2008-12-11T20:10:31.000000Z
+a4d7ea27986d162c693a91152cc25aa1
+2008-12-09T23:27:43.142187Z
+629
+yraspo
+
+Manifest.txt
+file
+
+
+
+
+2008-12-11T20:10:31.000000Z
+5125feac16ff6edf2453db994b323590
+2008-12-09T23:27:43.142187Z
+629
+yraspo
+
+init.rb
+file
+
+
+
+
+2008-12-11T20:10:31.000000Z
+c581ffa7cedb72e5770630db463a5fb4
+2008-12-09T23:27:43.142187Z
+629
+yraspo
+
+lib
+dir
+
+generators
+dir
+
+MIT-LICENSE
+file
+
+
+
+
+2008-12-11T20:10:31.000000Z
+ab9b97df69fac2311dca359eb541485e
+2008-12-09T23:27:43.142187Z
+629
+yraspo
+
+about.yml
+file
+
+
+
+
+2008-12-11T20:10:31.000000Z
+38932fdc5649982ac9960fdb1e8615bf
+2008-12-09T23:27:43.142187Z
+629
+yraspo
+
+README.txt
+file
+
+
+
+
+2008-12-11T20:10:31.000000Z
+e36c421afa909f7a64d13305a924b66a
+2008-12-09T23:27:43.142187Z
+629
+yraspo
+
+MOVED_TO_GITHUB.txt
+file
+
+
+
+
+2008-12-11T20:10:31.000000Z
+2b86a9c0c1860e8a35226a123a721681
+2008-12-09T23:27:43.142187Z
+629
+yraspo
+

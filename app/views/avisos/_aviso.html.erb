@@ -1,0 +1,12 @@
+<%form_remote_for(:aviso, :url => pizarra_avisos_path(@pizarra), :html => {:id => 'formAviso',  }) do |f| %>
+
+<%= f.error_messages %>
+
+
+<p>
+  <%= fckeditor_textarea("aviso","contenido", :toolbarSet => 'Easy', 
+                            :width => '200px', :height => '210px') %>    
+</p>
+
+<% end %>
+<td>&nbsp;&nbsp;&nbsp;</td> 
