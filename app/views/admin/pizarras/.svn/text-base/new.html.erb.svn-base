@@ -1,9 +1,0 @@
-<%= render   :partial    => "formulario",
-
-            :locals     => {:nombre_image => "/images/crear.gif",
-
-                            :cabecera     => "Nueva Pizarra:",
-
-                            :modo         => "nuevo" }
-
-%>

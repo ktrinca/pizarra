@@ -1,9 +1,0 @@
-<%= render   :partial    => "formulario",
-
-            :locals     => {:nombre_boton => "Crear",
-
-                            :cabecera     => "Nueva Pizarra:",
-
-                            :modo         => "nuevo" }
-
-%>

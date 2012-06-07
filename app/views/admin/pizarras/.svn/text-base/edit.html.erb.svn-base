@@ -1,9 +1,0 @@
-<%= render   :partial    => "formulario",
-
-            :locals     => {:nombre_image => "/images/modificar.gif",
-
-                            :cabecera     => "Editar la Pizarra:",
-
-                            :modo         => "edicion" }
-
-%>

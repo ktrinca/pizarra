@@ -1,88 +1,0 @@
-8
-
-dir
-718
-svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa/pizarra_online/vendor/rails/actionpack/test
-svn+ssh://yraspo@protocultura.homelinux.org/srv/svn/casa
-
-
-
-2008-12-04T18:54:56.117243Z
-563
-gramos
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-66081120-562a-0410-b780-8c63d2d42f6e
-
-controller
-dir
-
-abstract_unit.rb
-file
-
-
-
-
-2008-12-11T20:15:25.000000Z
-d640825da6b5b382fe1171715f91bead
-2008-12-04T18:54:56.117243Z
-563
-gramos
-
-adv_attr_test.rb
-file
-
-
-
-
-2008-12-11T20:15:25.000000Z
-4a02419ad1aa46452ea73f451c20d20a
-2008-12-04T18:54:56.117243Z
-563
-gramos
-
-fixtures
-dir
-
-activerecord
-dir
-
-active_record_unit.rb
-file
-
-
-
-
-2008-12-11T20:15:25.000000Z
-422783fe10b0e4a0d217fc1b837835c4
-2008-12-04T18:54:56.117243Z
-563
-gramos
-
-template
-dir
-
-testing_sandbox.rb
-file
-
-
-
-
-2008-12-11T20:15:25.000000Z
-51d93ebbf8ed95b77dd955858f55d46e
-2008-12-04T18:54:56.117243Z
-563
-gramos
-
