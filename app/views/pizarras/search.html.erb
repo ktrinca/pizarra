@@ -2,29 +2,22 @@
 
 <!--#################### div buscador ##################### -->
   <div style="padding-right:-100px;"><%= link_to 'Volver', pizarras_path %></div>
-  <div id="contentBuscador" > 
-   
-   <div id='separator'></div>
-   
-    <fieldset id="fieldsetBuscador" >
-      <legend> B&uacute;squeda de Avisos </legend>
-          <%= render   :partial    => "pizarraSearch" %>
+ <div id="contentBuscador" > 
+   Buscador de Avisos
+  <fieldset id="fieldsetBuscador" >
+     <%= render   :partial    => "pizarraSearch" %>
    </fieldset>
     
      &nbsp;&nbsp;&nbsp;  
   
   </div>
 
-  <!-- ############## Bloque Login ############ -- >
-   <div>   
-     <%= render :partial=> "/sessions/new" %>
-   </div>
-  
-  <!-- ############## FIN Bloque Login ############ -- > 
+ 
+  <!-- ############## FIN Bloque Login ############ --> 
   
   <div class='contentHome'>
     <table border="0">
-     <!-- ############## encabezado ############ -- >
+     <!-- ############## encabezado ############ -->
      <tr>
        <td align="center" style="width:260px">
             
@@ -33,7 +26,7 @@
        <td style="width:280px">&nbsp;</td>
      </tr>
      
-    <!-- ############## TD DETALLES PIZARRAS ############ -- >
+    <!-- ############## TD DETALLES PIZARRAS ############ -->
     
     <% for pizarra in @pizarras %>
      <tr >

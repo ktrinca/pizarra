@@ -88,7 +88,7 @@ class PizarrasController < ApplicationController
  #
  
   def index
-     @pizarras = Pizarra.paginate :page => params[:page],:per_page => 5
+     @pizarras = Pizarra.paginate :page => params[:page],:per_page => 4
 
     respond_to do |format|
       format.html # index.html.erb

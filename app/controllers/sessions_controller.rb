@@ -17,6 +17,7 @@ class SessionsController < ApplicationController
       redirect_back_or_default('/')
     else
       redirect_to root_path
+      flash[:notice] = "Usuario o password incorrectos."
     end
   end
 

@@ -1,30 +1,12 @@
-<% unless false %> 
+ <% unless false %> 
+    <% form_tag session_path do %>
+        <label for="login"><b>Usuario</b></label>
+        <%= text_field_tag 'login' %>
+        <label for="password"><b>Password</b></label>
+        <%= password_field_tag 'password' %>
+        <div id="lnknewsession"><%= link_to 'Olvid&oacute; su contrase&ntilde;a?', forgot_password_url %></div>
+        <div id="buttonnewsession"><%= image_submit_tag "/images/login.gif" %></div>  
+      
+    <% end %>
 
-   
-   
-      <legend > Ingresar: </legend>
-    
-       <% form_tag session_path do %>
-         <p>
-            <label for="login"><b>Usuario</b></label><br/>
-               <%= text_field_tag 'login' %>
-            </p>
-            <div id="buttonLogin">
-            </div>
-            <p>
-               <label for="password"><b>Password</b></label><br/>
-               <%= password_field_tag 'password' %></p>
-             <p>
-             <div id="buttonLogin">
-                <%= image_submit_tag "/images/login.gif" %>  
-              </div>
-              <div id="buttonLogin">
-                 <%= link_to 'Olvid&oacute; su contrase&ntilde;a?', forgot_password_url %> 
-               </div>
-           
-           </p>
-      <% end %>
-  
-   
-
-<% end %>
+ <% end %>
